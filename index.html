@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+
+    <title>Apod Nasa</title>
+
+    <script src = "apod.js" defer></script>
+
+</head>
+<body>
+
+    <header>
+       <h1 class="titulo">Astronomy Picture of the Day</h1>
+    </header>
+    
+    <main>
+        <p class="choose">Choose a date from June 16, 1995.</p>
+
+        <div class="data">
+            <input type="date" id="date" class ="dia" min="1995-06-20" ></input>
+        </div>
+
+        <div class="img">
+            <img id="img">
+        </div>
+
+        <button type="button" id="btn" class="btn" value="select">Search!</button>
+
+        <footer>
+            <p class="rodape">This website was created for academic purposes. <a href="https://github.com/yasminreisk" target="_blank">Yasmin Reis</a></p>
+        </footer>
+
+    </main>
+     
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+      background-image: url("bg.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+
+   header {
+    min-height: 60px;
+    background-color: #d81159;
+    color: white;
+    width: auto;
+   }
+
+   .titulo {
+    padding: 18px 5%;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+   }
+
+   .choose {
+       color: white;
+       font-size: 25px;
+       font-family: 'Saira Condensed', sans-serif;
+       padding: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       justify-items: center;
+   }
+
+   .data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   }
+
+   .dia {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 15px;
+    padding: 0 25px;
+   }
+
+   .btn {
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #d81159;
+    color: honeydew;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+   }
+
+   .rodape {
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 18px;
+   }
