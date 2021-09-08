@@ -15,9 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
 
-    <title>Apod Nasa</title>
+    <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script>
 
-    <script src = "apod.js" defer></script>
+    <title>Apod Nasa</title>
 
 </head>
 <body>
@@ -27,23 +27,34 @@
     </header>
     
     <main>
-        <p class="choose">Choose a date from June 16, 1995.</p>
 
         <div class="data">
-            <input type="date" id="date" class ="dia" min="1995-06-20" ></input>
+            <input type="date" id="date" class ="dia" min="1995-06-16"></input>
+            <button id="btnShow"><i class="fas fa-search"></i></button>
         </div>
 
-        <div class="img">
-            <img id="img">
+        <div class="container">
+            <iframe id="video" class="video"></iframe>
+            <img id="image" class="picture">
         </div>
 
-        <button type="button" id="btn" class="btn" value="select">Search!</button>
-
-        <footer>
-            <p class="rodape">This website was created for academic purposes. <a href="https://github.com/yasminreisk" target="_blank">Yasmin Reis</a></p>
-        </footer>
+        <div class="box">
+            <p id="autor"></p>
+            <br>
+            <p id="nome"> </p>
+            <br>
+            <p id="texto"> </p>
+            <br>
+        </div>
 
     </main>
+
+    <footer>
+        <p class="rodape">This website was created for academic purposes. <a href="https://github.com/yasminreisk" target="_blank">Yasmin Reis</a></p>
+    </footer>
      
 </body>
+
+<script src = "apod.js"></script>
+
 </html>
