@@ -20,15 +20,12 @@ requisicao.onload = function(){
         let imgApi= document.getElementById('image');
         let nomeApi = document.getElementById('nome');
         let videoApi = document.getElementById('video');
-        let autorApi = document.getElementById('autor');
         let textoApi = document.getElementById('texto');
 
         textoApi.innerHTML = objApi.explanation;
-        autorApi.innerHTML = objApi.copyright;
         nomeApi.innerHTML = objApi.title;
 
         textoApi.classList.add('texto');
-        autorApi.classList.add('autor');
         nomeApi.classList.add('nome');
 
         if (imgApi.media_type = 'image') {
